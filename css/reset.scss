@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: 'Motter Corpus Std' ,sans-serif;
+}
+// CONTAINER
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+// button
+button {
+  border: none;
+  outline: none;
+}
+
+// input
+input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}

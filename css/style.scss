@@ -1,0 +1,222 @@
+//$font-stack:    Helvetica, sans-serif;
+//$primary-color: #333;
+@import "mixin";
+@import "reset";
+
+#header{
+  .header{
+    @include df;
+    &--nav{
+
+    }
+    &--navbar{
+      a{
+        font-family: 'Nunito Sans',sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #0B4141;
+        padding: 30px;
+      }
+      button{
+       @include btn;
+      }
+    }
+  }
+}
+
+#link{
+  .link{
+     //&--rest{
+     //  h1{
+     //    font-weight: 400;
+     //    font-size: 120px;
+     //    line-height: 128px;
+     //    text-align: center;
+     //    color: #FFCCBC;
+     //  }
+     //  span{
+     //    font-style: normal;
+     //    font-weight: 400;
+     //    font-size: 120px;
+     //    line-height: 128px;
+     //    text-align: center;
+     //    background: linear-gradient(180deg, #0B4141 45.83%, #0B1F1F 45.84%)
+     //  }
+     //  &__product{
+     //    img{
+     //      position: absolute;
+     //      top: 500px;
+     //      left: 0;
+     //    }
+     //  }
+     //}
+      &--top{
+        .star{
+          position: absolute;
+          width: 30.68px;
+          height: 30.68px;
+          left: 215.59px;
+          top: 279.53px;
+          background: #FFCCBC;
+          opacity: 0.53;
+          border-radius: 50%;
+          transform: rotate(33.97deg)
+        }
+      }
+  }
+}
+
+#hero{
+  background: url("/img/Background.png") no-repeat center / cover;
+  min-height: 100vh;
+  //position: fixed;
+  //position: absolute;
+  filter: blur(1px);
+  .hero{
+    &--top{
+      h1{
+        font-family: 'Motter Corpus Std',sans-serif;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 96px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 40px 0;
+      }
+      p{
+        font-family: 'Nunito Sans',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+#time{
+  background: url("/img/Rectangle 13.png");
+  .time{
+    @include df;
+    padding: 70px 0;
+    &--fox{
+      h1{
+
+        font-family: 'Nunito Sans',sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        color: #FFCCBC;
+        padding: 30px 0;
+      }
+      p{
+        font-family: 'Nunito Sans',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFCCBC;
+        padding: 20px 0;
+      }
+      button{
+        @include btn;
+        color: #FFCCBC;;
+        background: rgba(255, 255, 255, 0);
+        border: 1px solid pink;
+      }
+    }
+    &--box{
+    }
+  }
+}
+
+#for{
+  .for{
+    @include df;
+    padding: 50px 0;
+    &--full{
+      //padding: 80px 0;
+    }
+ &--xxl{
+   h1{
+     font-family: 'Nunito Sans',sans-serif;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 68px;
+     line-height: 72px;
+     color: #FFCCBC;
+     padding: 30px 0;
+   }
+   p{
+     font-family: 'Nunito Sans',sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 32px;
+     color: #0B4141;
+   }
+ }
+
+  }
+}
+
+#var{
+  .var{
+    @include df;
+    &--at{
+      h1{
+        font-family: 'Nunito Sans',sans-serif;
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        color: #0B4141;
+        padding: 30px 0;
+      }
+      p{
+        font-family: 'Nunito Sans',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0B4141;
+        padding: 20px 0;
+      }
+
+    }
+  }
+}
+
+#const{
+  .const{
+    @include df;
+    &--taimer{
+      h1{
+        font-family: 'Motter Corpus Std',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 96px;
+        text-align: center;
+        color: #FFCCBC;
+        padding: 40px 0;
+      }
+      p{
+        font-family: 'Nunito Sans',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #0B4141;
+      }
+
+    }
+    &--all{
+
+    }
+  }
+}

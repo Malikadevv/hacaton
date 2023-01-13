@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Motter Corpus Std", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header--navbar a {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #0B4141;
+  padding: 30px;
+}
+#header .header--navbar button {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFCCBC;
+  background: #0B4141;
+  border-radius: 124px;
+  padding: 15px 51px;
+  letter-spacing: 0.4px;
+  box-shadow: 10px 10px 18px rgba(255, 255, 255, 0.36), -10px -10px 24px rgba(255, 255, 255, 0.27);
+  cursor: pointer;
+  transition: 0.4s;
+}
+#header .header--navbar button:hover {
+  transform: scale(0.9);
+  border: 1px solid black;
+  background: rgb(255, 255, 255);
+  color: navy;
+}
+
+#link .link--top .star {
+  position: absolute;
+  width: 30.68px;
+  height: 30.68px;
+  left: 215.59px;
+  top: 279.53px;
+  background: #FFCCBC;
+  opacity: 0.53;
+  border-radius: 50%;
+  transform: rotate(33.97deg);
+}
+
+#hero {
+  background: url("/img/Background.png") no-repeat center/cover;
+  min-height: 100vh;
+  filter: blur(1px);
+}
+#hero .hero--top h1 {
+  font-family: "Motter Corpus Std", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 40px 0;
+}
+#hero .hero--top p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#time {
+  background: url("/img/Rectangle 13.png");
+}
+#time .time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 0;
+}
+#time .time--fox h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 72px;
+  color: #FFCCBC;
+  padding: 30px 0;
+}
+#time .time--fox p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFCCBC;
+  padding: 20px 0;
+}
+#time .time--fox button {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFCCBC;
+  background: #0B4141;
+  border-radius: 124px;
+  padding: 15px 51px;
+  letter-spacing: 0.4px;
+  box-shadow: 10px 10px 18px rgba(255, 255, 255, 0.36), -10px -10px 24px rgba(255, 255, 255, 0.27);
+  cursor: pointer;
+  transition: 0.4s;
+  color: #FFCCBC;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid pink;
+}
+#time .time--fox button:hover {
+  transform: scale(0.9);
+  border: 1px solid black;
+  background: rgb(255, 255, 255);
+  color: navy;
+}
+#for .for {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+#for .for--xxl h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 72px;
+  color: #FFCCBC;
+  padding: 30px 0;
+}
+#for .for--xxl p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0B4141;
+}
+
+#var .var {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#var .var--at h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-size: 68px;
+  line-height: 72px;
+  color: #0B4141;
+  padding: 30px 0;
+}
+#var .var--at p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0B4141;
+  padding: 20px 0;
+}
+
+#const .const {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#const .const--taimer h1 {
+  font-family: "Motter Corpus Std", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+  color: #FFCCBC;
+  padding: 40px 0;
+}
+#const .const--taimer p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #0B4141;
+}
+
+/*# sourceMappingURL=style.css.map */

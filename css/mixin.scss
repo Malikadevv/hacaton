@@ -1,0 +1,26 @@
+@mixin btn{
+  font-family: 'Nunito Sans',sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFCCBC;
+  background: #0B4141;
+  border-radius: 124px;
+  padding: 15px 51px;
+  letter-spacing: 0.4px;
+  box-shadow: 10px 10px 18px rgba(255, 255, 255, 0.36), -10px -10px 24px rgba(255, 255, 255, 0.27);
+  cursor: pointer;
+  transition: .4s;
+  &:hover{
+    transform: scale(0.9);
+    border: 1px solid black;
+    background: rgb(255, 255, 255);
+    color: navy;
+  }
+}
+
+@mixin df{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
